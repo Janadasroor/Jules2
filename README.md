@@ -67,7 +67,7 @@ This project is built using modern Android development practices:
 
 To use the app, you need a valid **Jules API Key**.
 
-1.  Go to [jules.google.com/u/2/settings/api](https://jules.google.com/u/2/settings/api).
+1.  Go to <a href="https://jules.google.com/u/2/settings/api" target="_blank">jules.google.com/u/2/settings/api</a>.
 2.  **Login** with your Google account and **Authorize** with your GitHub account when prompted.
 3.  Copy your API Key.
 4.  Open the App, go to **Settings**, and paste your API Key.
@@ -91,19 +91,19 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 The following official documentation links were utilized to understand the Jules API structure and assist the AI in building this client:
 
-*   [Jules API REST Reference](https://developers.google.com/jules/api/reference/rest)
-*   [Sessions Resource](https://developers.google.com/jules/api/reference/rest/v1alpha/sessions)
-*   [Approve Plan](https://developers.google.com/jules/api/reference/rest/v1alpha/sessions/approvePlan)
-*   [Create Session](https://developers.google.com/jules/api/reference/rest/v1alpha/sessions/create)
-*   [Get Session](https://developers.google.com/jules/api/reference/rest/v1alpha/sessions/get)
-*   [List Sessions](https://developers.google.com/jules/api/reference/rest/v1alpha/sessions/list)
-*   [Send Message](https://developers.google.com/jules/api/reference/rest/v1alpha/sessions/sendMessage)
-*   [Activities Resource](https://developers.google.com/jules/api/reference/rest/v1alpha/sessions.activities)
-*   [Get Activity](https://developers.google.com/jules/api/reference/rest/v1alpha/sessions.activities/get)
-*   [List Activities](https://developers.google.com/jules/api/reference/rest/v1alpha/sessions.activities/list)
-*   [Sources Resource](https://developers.google.com/jules/api/reference/rest/v1alpha/sources)
-*   [Get Source](https://developers.google.com/jules/api/reference/rest/v1alpha/sources/get)
-*   [List Sources](https://developers.google.com/jules/api/reference/rest/v1alpha/sources/list)
+*   <a href="https://developers.google.com/jules/api/reference/rest" target="_blank">Jules API REST Reference</a>
+*   <a href="https://developers.google.com/jules/api/reference/rest/v1alpha/sessions" target="_blank">Sessions Resource</a>
+*   <a href="https://developers.google.com/jules/api/reference/rest/v1alpha/sessions/approvePlan" target="_blank">Approve Plan</a>
+*   <a href="https://developers.google.com/jules/api/reference/rest/v1alpha/sessions/create" target="_blank">Create Session</a>
+*   <a href="https://developers.google.com/jules/api/reference/rest/v1alpha/sessions/get" target="_blank">Get Session</a>
+*   <a href="https://developers.google.com/jules/api/reference/rest/v1alpha/sessions/list" target="_blank">List Sessions</a>
+*   <a href="https://developers.google.com/jules/api/reference/rest/v1alpha/sessions/sendMessage" target="_blank">Send Message</a>
+*   <a href="https://developers.google.com/jules/api/reference/rest/v1alpha/sessions.activities" target="_blank">Activities Resource</a>
+*   <a href="https://developers.google.com/jules/api/reference/rest/v1alpha/sessions.activities/get" target="_blank">Get Activity</a>
+*   <a href="https://developers.google.com/jules/api/reference/rest/v1alpha/sessions.activities/list" target="_blank">List Activities</a>
+*   <a href="https://developers.google.com/jules/api/reference/rest/v1alpha/sources" target="_blank">Sources Resource</a>
+*   <a href="https://developers.google.com/jules/api/reference/rest/v1alpha/sources/get" target="_blank">Get Source</a>
+*   <a href="https://developers.google.com/jules/api/reference/rest/v1alpha/sources/list" target="_blank">List Sources</a>
 
 ## Author
 
