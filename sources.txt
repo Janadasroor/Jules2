@@ -1,0 +1,13 @@
+https://developers.google.com/jules/api/reference/rest
+https://developers.google.com/jules/api/reference/rest/v1alpha/sessions
+https://developers.google.com/jules/api/reference/rest/v1alpha/sessions/approvePlan
+https://developers.google.com/jules/api/reference/rest/v1alpha/sessions/create
+https://developers.google.com/jules/api/reference/rest/v1alpha/sessions/get
+https://developers.google.com/jules/api/reference/rest/v1alpha/sessions/list
+https://developers.google.com/jules/api/reference/rest/v1alpha/sessions/sendMessage
+https://developers.google.com/jules/api/reference/rest/v1alpha/sessions.activities
+https://developers.google.com/jules/api/reference/rest/v1alpha/sessions.activities/get
+https://developers.google.com/jules/api/reference/rest/v1alpha/sessions.activities/list
+https://developers.google.com/jules/api/reference/rest/v1alpha/sources
+https://developers.google.com/jules/api/reference/rest/v1alpha/sources/get
+https://developers.google.com/jules/api/reference/rest/v1alpha/sources/list
