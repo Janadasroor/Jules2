@@ -35,14 +35,9 @@ This project is built using modern Android development practices:
 
 *   **Language**: [Kotlin](https://kotlinlang.org/)
 *   **UI Framework**: [Jetpack Compose](https://developer.android.com/jetpack/compose) (Material 3)
-*   **Architecture**: MVVM (Model-View-ViewModel)
-*   **Navigation**: [Navigation Compose](https://developer.android.com/guide/navigation/navigation-compose)
-*   **Networking**: [Retrofit](https://square.github.io/retrofit/) + [OkHttp](https://square.github.io/okhttp/)
-*   **Concurrency**: Kotlin Coroutines & StateFlow
+
 
 ## Screenshots
-
-*(Add your screenshots here)*
 
 | Session List | Chat Interface |
 |:---:|:---:|
@@ -53,7 +48,7 @@ This project is built using modern Android development practices:
 ### Prerequisites
 *   Android Studio Ladybug or newer.
 *   JDK 11 or higher.
-*   Access to the Google Jules API.
+*   **Google Jules API Key**.
 
 ### Installation
 
@@ -63,30 +58,24 @@ This project is built using modern Android development practices:
     cd Jules2
     ```
 
-2.  **Configure API Access:**
-    *   Open `local.properties` in the project root.
-    *   Add your Jules API base URL and any necessary authentication tokens (depending on your specific API configuration):
-        ```properties
-        JULES_API_BASE_URL="https://your-jules-api-endpoint.com/"
-        ```
-
-3.  **Build the project:**
+2.  **Install on Device:**
     ```bash
-    ./gradlew assembleDebug
+    ./gradlew installDebug
     ```
 
-4.  **Run on Device/Emulator:**
-    *   Connect your Android device or start an emulator.
-    *   Run the app via Android Studio or command line:
-        ```bash
-        ./gradlew installDebug
-        ```
+### Configuration (Important)
+
+To use the app, you need a valid **Jules API Key**.
+
+1.  Go to [jules.google.com/u/2/settings/api](https://jules.google.com/u/2/settings/api).
+2.  **Login** with your Google account and **Authorize** with your GitHub account when prompted.
+3.  Copy your API Key.
+4.  Open the App, go to **Settings**, and paste your API Key.
 
 ## Usage
 
 1.  **Start a Session**: Tap the `+` FAB on the home screen. Enter your instruction (e.g., "Refactor the LoginActivity") and select the relevant source file/module.
 2.  **Chat**: Tap on any session to enter the detail view. Type messages at the bottom to guide the agent.
-3.  **Review Plans**: When the agent proposes a change, a "View Plan" or "Approve" button will appear. Review the proposed steps and confirm to let the agent execute the changes.
 
 ## Contributing
 
@@ -98,7 +87,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 4.  Push to the Branch (`git push origin feature/AmazingFeature`)
 5.  Open a Pull Request
 
-## 🔗 References & Resources
+##  References & Resources
 
 The following official documentation links were utilized to understand the Jules API structure and assist the AI in building this client:
 
