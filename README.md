@@ -44,9 +44,9 @@ This project is built using modern Android development practices:
 
 *(Add your screenshots here)*
 
-| Session List | Chat Interface | Plan Approval |
-|:---:|:---:|:---:|
-| ![Session List](path/to/screenshot1.png) | ![Chat](path/to/screenshot2.png) | ![Plan](path/to/screenshot3.png) |
+| Session List | Chat Interface |
+|:---:|:---:|
+| ![Session List](screenshots/sessions-list.png) | ![Chat](screenshots/chat.png) |
 
 ## Setup & Installation
 
